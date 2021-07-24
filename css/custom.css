@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+html,body{
+	background: #FFF;
+	color: #444;
+	width: 100%;
+	height: 100%;
+}
+
+div,span,a,ul,li,p,img,button,input {
+	transition-property: all;
+	transition-duration: 300ms;
+	transition-timing-function: linear;
+	-moz-transition-property: all;
+	-moz-transition-duration: 300ms;
+	-moz-transition-timing-function: linear;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 300ms;
+	-webkit-transition-timing-function: linear;
+	-o-transition-property: all;
+	-o-transition-duration: 300ms;
+	-o-transition-timing-function: linear;
+}
+
+.divlink {
+        cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+
+span.avatar {
+        padding: 0.7em 1.3em;
+        background: url(./../images/user_pic.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 2em;
+        margin-right:1em;
+}
+
+#main {
+        width: 60em;
+        margin: 0 auto;
+        margin-top: 5em;
+}
+
+.main-item {
+        margin: 1.5em 0;
+        padding: 1em 1em;
+        border:solid #1b7bbb;
+        border-radius: 3px 3px 0 0;
+        border-width: 0 0 0 3px;
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.15);
+        box-shadow: 0 1px 1px rgba(0,0,0,.15);
+}
+
+.main-item .title {
+        color: #333;
+        font-size: 2.3em;
+}
+
+.main-item .author{
+        color: #82888a;
+        padding: 0.5em 0;
+}
+
+.main-item .author span{
+        font-size: 0.5em;
+        margin-right: 0.5em;
+}
+
+.main-item .content{
+        padding: 1em 0;
+}
+
+.main-item .operate{
+        margin-top: -1.5em;
+}
